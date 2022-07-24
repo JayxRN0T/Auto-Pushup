@@ -1,0 +1,10 @@
+_G.toggle= true
+while _G.toggle do
+   wait()
+    if _G.toggle== false then
+        return
+end
+if _G.toggle == true then
+game:GetService("ReplicatedStorage").Remotes.PushUp:FireServer()
+end
+end
